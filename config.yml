@@ -1,0 +1,20 @@
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://wiebkebo.github.io" # update if you use a custom domain
+title: "Wiebke Bodamer"
+description: "News, bio, and research"
+author:
+  name: "Wiebke Bodamer"
+  email: "your-email@example.com"
+
+remote_theme: academicpages/academicpages
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+nav:
+  - title: "Home"
+    url: /
